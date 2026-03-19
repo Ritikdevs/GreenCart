@@ -1,10 +1,40 @@
-node_modules
+node_modules/
 .env
-.env.local
-.env.development
-.env.production
+.env.*
+!.env.example
 
 dist
 build
+coverage
 
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency dirs
+jspm_packages/
+bower_components/
+
+# Cache
+.cache
+.parcel-cache
+.nyc_output
+
+# OS files
 .DS_Store
+
+# Editors
+.vscode-test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
